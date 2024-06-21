@@ -19,8 +19,8 @@ fi
 date=$(date +%Y%m%d-%H%M%S)
 ipadd=$($ip_command | grep -w inet | grep -v 127.0.0.1 | awk '{print $2}' | cut -d '/' -f 1)
 
-check_dir="/tmp/${date}/check_file/"
-log_dir="/tmp/${date}/log/"
+check_dir="/tmp/${date}/"
+log_dir="/tmp/${date}/"
 
 # 删除目录及文件，使用引号防止意外的空格或特殊字符
 
