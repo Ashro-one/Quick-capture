@@ -4,6 +4,8 @@ Usge：
 
   sh Quick-capture.sh 
 
+  输出结果在/tmp/{data} 文件
+
 <img width="533" alt="image" src="https://github.com/Ashro-one/Quick-capture/assets/49979071/2b758c77-5c99-4d5a-8c99-3af8d5a7831f">
 
 检查项：<br>
@@ -16,5 +18,11 @@ Usge：
 7.新增用户组检查<br>
 8.sudoers文件中用户权限<br>
 9.检查各账户下的登录公钥<br>
-10.检查历史登录IP记录<br>
-11.检查历史命令<br>
+10.网络连接和监听端口<br>
+11.系统进程分析<br>
+12.CPU内存异常<br>
+13.检查历史命令<br>
+14.定时任务分析<br>
+15.登录、lastlog、wtmp日志分析<br>
+16.检查历史登录IP记录<br>
+17.后门简单排查<br>
